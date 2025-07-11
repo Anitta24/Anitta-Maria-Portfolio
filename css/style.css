@@ -11517,6 +11517,31 @@ h5,
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-badge {
+  background: #a87464;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+}
+
+.skill-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
 
 .services-1 {
   margin-bottom: 40px;
