@@ -11784,8 +11784,24 @@ h5,
 .project:focus .text {
   opacity: 1;
 }
+.cert-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-.aside-stretch {
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+ .bg-cert {
+  background-color: #a87464;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bg-cert:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+ .aside-stretch {
   background: #ffce6c;
 }
 .aside-stretch:after {
