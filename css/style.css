@@ -11782,8 +11782,16 @@ h5,
 }
 .overlay {
   pointer-events: none;
+  z-index: 0;
 }
-
+.btn {
+  position: relative;
+  z-index: 2;
+}
+.slider-item,
+.home-slider {
+  overflow: hidden;
+}
 .project:hover .text,
 .project:focus .text {
   opacity: 1;
@@ -11796,7 +11804,7 @@ h5,
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
- .bg-cert {
+.bg-cert {
   background-color: #a87464;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -11805,7 +11813,7 @@ h5,
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
- .aside-stretch {
+.aside-stretch {
   background: #ffce6c;
 }
 .aside-stretch:after {
